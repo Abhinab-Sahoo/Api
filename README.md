@@ -22,7 +22,7 @@ Before running the application, make sure you have the following installed:
 2. Open the project in Android Studio.
 3. Build and run the application on an emulator or a physical device.
 
-## Caption: Home screen displaying the fetched data
+## Home screen displaying the fetched data
 <img src="https://github.com/Abhinab-Sahoo/Api/assets/102297793/dadb2177-6a38-4a2a-b59a-6ea07fa01012" alt="App Screenshot 1" width="300"/>
 
 <img src="https://github.com/Abhinab-Sahoo/Api/assets/102297793/d4977838-44dc-4ee6-a451-c8ae919ccce5" alt="App Screenshot 2" width="300"/>
