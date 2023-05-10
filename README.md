@@ -36,6 +36,6 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 please feel free to create a pull request or submit an issue in the GitHub repository.
 
 ## Contact
-For any inquiries or feedback, you can reach me at your-email@example.com.
+For any inquiries or feedback, you can reach me at abhinabsahoo9@gmail.com.
 
 Happy coding!
