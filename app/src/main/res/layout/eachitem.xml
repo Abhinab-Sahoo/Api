@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="9dp"
+    android:id="@+id/cardItem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/productImage"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_launcher_background"
+            app:shapeAppearanceOverlay="@style/SoftCorner">
+
+        </com.google.android.material.imageview.ShapeableImageView>
+
+        <LinearLayout
+            android:id="@+id/verticalLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/productTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/product_name"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/ratingLinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ratingNumber"
+                    android:text="4.4"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:textColor="#53B1DD"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="-32dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:stepSize="0.5"
+                    android:rating="4.4"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6"
+                    android:progressTint="#DF7920"
+                    android:secondaryProgressTint="#DF7920"
+                    style="?android:attr/ratingBarStyleIndicator">
+
+                </RatingBar>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/priceLinearLayout"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/price"
+                    android:text="\$549"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:fontFamily="sans-serif"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/priceDiscount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(10% off)"
+                    android:textSize="10sp"
+                    android:layout_marginTop="-4dp"
+                    android:layout_marginLeft="7dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

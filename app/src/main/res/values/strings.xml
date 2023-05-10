@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Api</string>
+
+<!--  Added by me  -->
+<!--  for eachitem.xml textView  -->
+    <string name="product_name">Product Name</string>
+</resources>
