@@ -22,6 +22,11 @@ Before running the application, make sure you have the following installed:
 2. Open the project in Android Studio.
 3. Build and run the application on an emulator or a physical device.
 
+## Caption: Home screen displaying the fetched data
+
+https://github.com/Abhinab-Sahoo/Api/assets/102297793/adee9cc8-a889-4a55-8211-b64997646d24
+
+
 ## Usage
 Launch the app on your Android device.
 
